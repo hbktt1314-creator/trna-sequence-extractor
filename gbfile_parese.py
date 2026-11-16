@@ -12,7 +12,7 @@ output_res = []
 
 
 # 打开文件
-with open("./sequence（1）.gb", "r") as file:
+with open("./sequence.gb", "r") as file:
     # 读取文件内容
     records = list(SeqIO.parse(file, "genbank"))
 
@@ -86,7 +86,7 @@ with open("./sequence（1）.gb", "r") as file:
 file.close()
 
 # 读取输入文件（FASTA格式）
-filename = "./序列sequence(1).fasta"
+filename = "./序列sequence.fasta"
 sequences = list(SeqIO.parse(filename, "fasta"))
 
 # 定义tRNA位置列表
