@@ -1,6 +1,6 @@
 # tRNA Sequence Extractor
 
-从 GenBank 注释和 FASTA 序列中提取 tRNA 基因序列及相关注释，并将结果追加保存到 Excel 文件。
+从 GenBank 注释和 FASTA 序列中提取 tRNA 基因序列及相关注释，并将结果追加保存到 Excel 文件。本项目属于生物信息学工具，用于处理基因组注释与 tRNA 序列分析。
 
 > 当前仓库脚本是一个按固定文件名运行的原型。使用前请阅读下方的输入要求和注意事项；特别是脚本会覆盖写回 `trna_gene.xlsx`，建议先备份。
 
